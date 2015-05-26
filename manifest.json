@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Inbenta",
+    "email": "support@inbenta.com"
+  },
+
+  "location": ["ticket_sidebar","new_ticket_sidebar"],
+  "defaultLocale": "en",
+  "private": false,
+  "singleInstall": false,
+  "frameworkVersion": "0.5",
+  "parameters": [
+  {
+    "name": "subdomain",
+    "type": "text",
+    "required": true
+  },
+  {
+    "name": "token",
+    "type": "text",
+    "required": true
+  }
+  ]
+}
